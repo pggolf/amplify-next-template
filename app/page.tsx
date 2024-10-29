@@ -34,6 +34,7 @@ export default function App() {
     });
   }
   
+
   function deleteTodo(id: string) {
     client.models.Todo.delete({ id })
   }
